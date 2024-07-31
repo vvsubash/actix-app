@@ -1,0 +1,11 @@
+[package]
+name = "actix-app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.0"
+askama = "0.12.1"
+askama_actix = "0.14.0"
+diesel = {version ="2.2.0", features = ["postgres"]}
+dotenvy = "0.15"
